@@ -1,5 +1,5 @@
 # Quantification of photoreceptor border thickness
-Semi-automatised and unbiased quantification of the photoreceptor brush border thickness of life cell images of retinal organoid neural retinas.
+Semi-automatised and unbiased quantification of the photoreceptor brush border thickness of life cell images of retinal organoid neural retinas. The macro was developed in cooperation with Felix Zimmann from the [Laboratory of RNA Biology, Institute of Molecular Genetics of the Czech Academy of Sciences, Prague, Czech Republic](https://www.img.cas.cz/group/david-stanek/)
 
 **Macro for [ImageJ/Fiji](https://fiji.sc/).**
 
@@ -19,7 +19,13 @@ The macro generates the following outputs:
 - A local thickness map.
 - A CSV file containing quantitative data for each skeleton, including its length and average thickness.
 
-**A picture for testing the macro attached.**
+### How to use the macro:
+
+1. Place both the original and segmented TIFF files (Org_WT_1_004.tif and Seg_Org_WT_1_004.tif) into an empty folder.
+2. Open the segmented image (Seg_Org_WT_1_004.tif) in Fiji.
+3. Open the provided macro file (250626_POS_Avg_Thickness.ijm) in Fiji and run it.
+4. During execution, the macro prompts you to manually connect parts of the skeleton that appear disconnected but should be continuous based on visual inspection of the original image. Perform these corrections as needed.
+5. Upon completion, the macro will generate all image outputs and numerical results in a newly created subfolder within the working directory.
 
 ### Images
 
