@@ -9,12 +9,12 @@ The custom macro, written in the ImageJ Macro Language (IJM), was developed to a
 
 The macro performs the following steps:
 
-    - Skeletonization of segmented regions using the [Skeletonize (2D/3D)](https://imagej.net/plugins/skeletonize3d) and [Analyze Skeleton (2D/3D)](https://imagej.net/plugins/analyze-skeleton/) plugins, which reduce the segmented areas to their central lines and calculate the total length of each skeletonized structure.
-    - Local thickness measurement using the [Local Thickness](https://imagej.net/imagej-wiki-static/Local_Thickness) plugin, which computes the thickness at each point within the segmented POS regions.
-    - Integration of results – the macro combines the outputs from the skeleton and thickness analyses to calculate the average thickness of each POS structure.
+- Skeletonization of segmented regions using the [Skeletonize (2D/3D)](https://imagej.net/plugins/skeletonize3d) and [Analyze Skeleton (2D/3D)](https://imagej.net/plugins/analyze-skeleton/) plugins, which reduce the segmented areas to their central lines and calculate the total length of each skeletonized structure.
+- Local thickness measurement using the [Local Thickness](https://imagej.net/imagej-wiki-static/Local_Thickness) plugin, which computes the thickness at each point within the segmented POS regions.
+- Integration of results – the macro combines the outputs from the skeleton and thickness analyses to calculate the average thickness of each POS structure.
 
 The macro generates the following outputs:
 
-    - A labeled skeleton image.
-    - A local thickness map.
-    - A CSV file containing quantitative data for each skeleton, including its length and average thickness.
+- A labeled skeleton image.
+- A local thickness map.
+- A CSV file containing quantitative data for each skeleton, including its length and average thickness.
