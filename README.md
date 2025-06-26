@@ -1,5 +1,5 @@
 # Quantification of photoreceptor border thickness
-Semi-automatised and unbiased quantification of the photoreceptor brush border thickness of life cell images of retinal organoid neural retinas. The macro was developed in cooperation with **Felix Zimmann. M.Sc.** from the [Laboratory of RNA Biology, Institute of Molecular Genetics of the Czech Academy of Sciences, Prague, Czech Republic](https://www.img.cas.cz/group/david-stanek/)
+Semi-automatised and unbiased quantification of the photoreceptor brush border thickness of life cell images of retinal organoid neural retinas. The macro was developed in cooperation with **Felix Zimmann, M.Sc.** from the [Laboratory of RNA Biology, Institute of Molecular Genetics of the Czech Academy of Sciences, Prague, Czech Republic](https://www.img.cas.cz/group/david-stanek/)
 
 **Macro for [ImageJ/Fiji](https://fiji.sc/).**
 
