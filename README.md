@@ -1,4 +1,4 @@
-# Quantification_photoreceptor_border_thickness
+# Quantification of photoreceptor border thickness
 Semi-automatised and unbiased quantification of the photoreceptor brush border thickness of life cell images of retinal organoid neural retinas
 
 **Macro for [ImageJ/Fiji](https://fiji.sc/).**
