@@ -18,3 +18,7 @@ The macro generates the following outputs:
 - A labeled skeleton image.
 - A local thickness map.
 - A CSV file containing quantitative data for each skeleton, including its length and average thickness.
+
+### Images
+
+![Organoid_Orig_WekaSegmented](https://github.com/user-attachments/assets/3f9e3c4b-dcb3-472c-af0f-d9f1dc979282)
