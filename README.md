@@ -19,6 +19,12 @@ The macro generates the following outputs:
 - A local thickness map.
 - A CSV file containing quantitative data for each skeleton, including its length and average thickness.
 
+**A picture for testing the macro attached.**
+
 ### Images
 
+Fig. 1: Original organoid and its regions segmented by WEKA:
 ![Organoid_Orig_WekaSegmented](https://github.com/user-attachments/assets/3f9e3c4b-dcb3-472c-af0f-d9f1dc979282)
+
+Fig. 2: POS and its local thickness evaluation with a skeleton inpainted:
+![Organoid_POS_LocThickSkelet](https://github.com/user-attachments/assets/776a5760-a182-401d-9947-bbfcde3de715)
